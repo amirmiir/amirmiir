@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="20" viewBox="0 0 800 20">
+  <defs>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9">
+        <animate attributeName="stop-color" values="#67e8f9;#f9a8d4;#67e8f9" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#f9a8d4">
+        <animate attributeName="stop-color" values="#f9a8d4;#67e8f9;#f9a8d4" dur="10s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#67e8f9">
+        <animate attributeName="stop-color" values="#67e8f9;#f9a8d4;#67e8f9" dur="10s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes wave {
+      0%, 100% { d: path('M0,10 Q100,5 200,10 T400,10 T600,10 T800,10'); }
+      50% { d: path('M0,10 Q100,15 200,10 T400,10 T600,10 T800,10'); }
+    }
+    .wave-path {
+      animation: wave 4s ease-in-out infinite;
+    }
+  </style>
+  <path class="wave-path" d="M0,10 Q100,5 200,10 T400,10 T600,10 T800,10" fill="none" stroke="url(#dividerGrad)" stroke-width="2" stroke-linecap="round"/>
+</svg>
