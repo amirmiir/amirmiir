@@ -10,9 +10,9 @@ My name is **Amir**, but you may find me as **amirmiir** (a pun for my name and 
 
 <img src="./assets/divider.svg" width="100%" alt="divider"/>
 
-<table>
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: none;">
       <h3 align="center">About me...</h3>
       <p>
         My full name is <strong>Amir Canto Gamboa</strong> and I am currently a <strong>Computer Science</strong> undergrad student at <strong>National University of Engineering</strong> in Lima.
@@ -21,7 +21,7 @@ My name is **Amir**, but you may find me as **amirmiir** (a pun for my name and 
         I was born in Perú and I have found problem solving as an essential part of my day to day life and professional path. I have been developing software for a couple of years, and I am looking to solidify myself as a <strong>Full-Stack Developer</strong>.
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: none;">
       <h3 align="center">Technical Stack</h3>
       <p align="center">
         <strong>Languages</strong><br/>
@@ -50,9 +50,10 @@ My name is **Amir**, but you may find me as **amirmiir** (a pun for my name and 
 <img src="./assets/divider.svg" width="100%" alt="divider"/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amirmiir&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
-  <br/><br/>
+  
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=amirmiir&theme=tokyo-night&hide_border=true&bg_color=0d1117" alt="Activity Graph" />
+  <br/><br/>
+  <img src="https://github-readme-stats.vercel.app/api?username=amirmiir&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
 </div>
 
 <img src="./assets/divider.svg" width="100%" alt="divider"/>
@@ -61,7 +62,13 @@ My name is **Amir**, but you may find me as **amirmiir** (a pun for my name and 
 
 ### Connections
 
+Please feel invited to visit the following social media to find out what I am currently working on...
+
 [![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/amir_canto_gamboa)
+[![Instagram](https://skillicons.dev/icons?i=instagram)](https://www.instagram.com/amirmiir_/)
+
+For a more formal contact, also reach me through mail
+
 [![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:amir.canto.g@uni.pe)
 
 </div>
